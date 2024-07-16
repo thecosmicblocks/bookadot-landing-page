@@ -11,19 +11,19 @@ export const Header: React.FC<ComponentProps<any>> = ({children}) => {
     const navItems = [
         {
             title: 'Home',
-            href: '/'
+            href: '/#'
         },
         {
             title: 'About',
-            href: '/'
+            href: '/about'
         },
         {
             title: 'Contact',
-            href: '/'
+            href: '/contact'
         },
         {
             title: 'FAQ',
-            href: '/'
+            href: '/faq'
         }
     ]
     return (
