@@ -38,7 +38,7 @@ const ContactPage = () => {
           </div>
         </div>
 
-        <Button color="bookadot-primary" className="mt-4 hover:opacity-80">
+        <Button color="bookadot-secondary" type={'button'} className="mt-4 hover:opacity-80 w-[50%] content-center self-center" size={'xl'}>
           Send Message --&gt;
         </Button>
       </div>

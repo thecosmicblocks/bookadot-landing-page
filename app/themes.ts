@@ -167,7 +167,7 @@ export const themes: CustomFlowbiteTheme = {
   },
   footer: {
     root: {
-      base: "w-full rounded-lg bookadot-body shadow md:flex md:items-center md:justify-between",
+      base: "w-full rounded-lg shadow md:flex md:items-center md:justify-between",
       container: "w-full p-6",
       bgDark: "bg-gray-800",
     },

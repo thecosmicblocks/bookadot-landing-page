@@ -66,3 +66,11 @@ body {
 a {
   color: var(--accent-color);
 }
+@layer components {
+  .hero {
+    background-image: url('./components/Icon/home-ticket.svg');
+    background-repeat: no-repeat;
+    background-position: right center; /* Align to the right */
+    background-size: contain;
+  }
+}

@@ -28,9 +28,9 @@ export default function RootLayout({
         <ThemeModeScript />
         <title>Bookadot</title>
       </head>
-      <body className={"bookadot-body flex w-full flex-col items-center"}>
+      <body className={"flex w-full flex-col items-center"}>
         <Flowbite theme={{ mode: "dark", theme: themes }}>
-          <Container className={`min-h-[70vh] w-full`}>
+          <Container className={`min-h-[70vh] w-full p-5`}>
             <Header></Header>
             {children}
             <TCBFooter></TCBFooter>
