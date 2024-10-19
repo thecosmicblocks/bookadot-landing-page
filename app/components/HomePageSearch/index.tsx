@@ -32,11 +32,7 @@ const HomePageSearch = () => {
         icon={<Film />}
       />
       <Datepicker
-        value={date ? dayjs(date).format("DD-MM-YYYY") : undefined}
-        defaultDate={date}
-        onSelectedDateChanged={(v) => {
-          setDate(v);
-        }}
+        value={date ? dayjs(date).toDate() : undefined}
         placeholder="Select a date..."
       />
       <Select
