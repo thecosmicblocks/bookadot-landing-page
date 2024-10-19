@@ -30,7 +30,7 @@ export const Header: React.FC<ComponentProps<any>> = ({ children }) => {
         <Navbar fluid rounded className={"w-full rounded-none py-4"}>
             <Navbar.Brand href="/">
                 <Image
-                    src="/logo.png"
+                    src="https://s3.ap-southeast-1.amazonaws.com/cdn.thecosmicblock.com/bookadot-icon.png"
                     alt="Bookadot"
                     width={65}
                     height={65}
