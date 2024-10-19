@@ -1,12 +1,12 @@
 "use client";
-import { Button, Navbar } from "flowbite-react";
-import { ComponentProps } from "react";
-import { usePathname } from "next/navigation";
+import {Button, Navbar} from "flowbite-react";
+import {ComponentProps} from "react";
+import {usePathname} from "next/navigation";
 import Link from "next/link";
-import { twMerge } from "tailwind-merge";
-import { Logo } from "./Icon";
+import {twMerge} from "tailwind-merge";
 import Image from "next/image";
-export const Header: React.FC<ComponentProps<any>> = ({ children }) => {
+
+export const Header: React.FC<ComponentProps<any>> = ({children}) => {
     const pathname = usePathname();
     const navItems = [
         {
@@ -56,7 +56,11 @@ export const Header: React.FC<ComponentProps<any>> = ({ children }) => {
                 ))}
             </div>
             {/* </Navbar.Collapse> */}
-            <Button color={"bookadot-secondary"}>Launch dApp</Button>
+            <a href={'https://bookadot.thecosmicblock.com/cinema'} target={"_blank"}>
+                <Button color={"bookadot-secondary"}>
+                    Launch dApp
+                </Button>
+            </a>
         </Navbar>
     );
 };
